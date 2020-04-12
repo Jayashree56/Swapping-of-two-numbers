@@ -1,0 +1,17 @@
+#include<studio.h>
+ int main()
+{
+ int X;
+ printf("Enter a value");
+ scanf("%d", &X);
+ Switch (X)
+  {
+   Case 1:printf("food item-pizza\nRs.239");break;
+   Case 2:printf("food item - pasta\nRs.179");break:
+   Case 3: printf ("food item- burger\nRs.129");break;
+   Case 4:printf("food item - sandwich\nRs.149");break;
+   Case 5: printf ("food item- French fries\nRs.99");break;
+   default:printf("Sorry!\nThe food item is not available);
+  }
+ return 0;
+}
