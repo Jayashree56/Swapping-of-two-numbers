@@ -1,0 +1,26 @@
+package switchcase;
+public class SwitchExample {  
+public static void main(String[] args) {  
+    //Declaring a data type for switch expression  
+    int choice;
+   System.out.println("Pick one :1.HI\t1,2.HEY\t2,3.Hello\t3");
+   
+   
+     Scanner s = new Scanner(System.in);
+     
+    choice = s.newInt();
+    
+    //Switch expression  
+    switch(choice){  
+    //Case statements  
+    case 1: System.out.println("HI");  
+    break;  
+    case 2: System.out.println("HEY");  
+    break;  
+    case 3: System.out.println("Hello");  
+    break;  
+    //Default case statement  
+    default:System.out.println("Invalid Choice");  
+    }  
+}  
+}  
